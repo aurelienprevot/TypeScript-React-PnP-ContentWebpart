@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2015/12/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.8.1610.0, Culture=neutral, PublicKeyToken=null" />
+  <pnp:Templates ID="hnsp">
+    <pnp:ProvisioningTemplate ID="hnsp-provisionningtemplate" Version="1">
+            <pnp:Files>
+              <!-- Indicateurs -->
+              <pnp:File Src="..\webpart\ma-webpart.dwp" Folder="{site}\_catalogs\wp" Overwrite="true" />
+            </pnp:Files>
+            <pnp:CustomActions>
+              <pnp:SiteCustomActions>
+                  <pnp:CustomAction
+                      Location="ScriptLink"
+                       Name="webpart-bundle"
+                      ScriptSrc="~sitecollection/_catalogs/wp/webpart.bundle.js">
+                </pnp:CustomAction>
+                <!--<pnp:CustomAction
+                      Location="ScriptLink"
+                      Name="carte-des-regions-style"
+                      ScriptBlock="document.write('&lt;link rel=&quot;stylesheet&quot; href=&quot;~sitecollection/Style%20Library/hnsp/jquery-jvectormap-2.0.3.css&quot; /&gt;');"
+                      Sequence="100"
+                      >
+                </pnp:CustomAction>-->
+              </pnp:SiteCustomActions>
+            </pnp:CustomActions>
+        </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

@@ -1,0 +1,21 @@
+npm init
+
+sudo npm isntall --save-dev typescript
+sudo npm isntall --save-dev ts-loader
+sudo npm isntall --save-dev sp-pnp-js
+sudo npm isntall --save-dev webpack
+sudo npm isntall --save-dev spsave-webpack-plugin
+sudo npm isntall --save-dev react
+sudo npm isntall --save-dev react-dom
+sudo npm isntall --save-dev @types/react
+sudo npm isntall --save-dev jquery
+sudo npm isntall --save-dev @types/jquery 
+sudo npm isntall --save-dev imports-loader
+
+
+sudo npm isntall --save-dev typescript ts-loader sp-pnp-js webpack spsave-webpack-plugin react react-dom @types/react jquery @types/jquery imports-loader 
+
+Montrer le package.json, avec notamment le start
+tsconfig.json
+webpack.config.json, à Montrer
+Import du .Webpart
