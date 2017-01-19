@@ -4,7 +4,7 @@
   <pnp:Templates ID="hnsp">
     <pnp:ProvisioningTemplate ID="hnsp-provisionningtemplate" Version="1">
             <pnp:Files>
-              <!-- Indicateurs -->
+              <!-- Webpart -->
               <pnp:File Src="..\webpart\ma-webpart.dwp" Folder="{site}\_catalogs\wp" Overwrite="true" />
             </pnp:Files>
             <pnp:CustomActions>
